@@ -1,0 +1,33 @@
+h2 {
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+
+section{
+    position: relative;
+    width:100%;
+    Height:100vh;
+    background: radial-gradient(#333, #000);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    font-size: 8rem;
+}
+
+section .set {
+    position: absolute;
+    width: 100%;
+    Height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none; 
+}
+
+section .set div {
+    position:absolute;
+    display: block;
+}
